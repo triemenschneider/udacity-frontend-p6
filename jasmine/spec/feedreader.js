@@ -118,7 +118,7 @@ $(function() {
         });
 
         it('contains different content after loadFeed function finished', function(){
-            var feedContent = $('.feed.entry').html();
+            var feedContent = $('.feed').html();
             expect(feedContent).not.toEqual(previousFeedContent);
         });
 
